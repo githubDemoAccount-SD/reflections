@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+    
+zeroes in on the lines that are different, rather than hunting line by line (and probably still missing some diffs)
+
+
+
+How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+
+    
+See what changes were done when, and maybe why. Also, can revert back if needed
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+ commit, like you do in Git, vs having versions automatically saved, like Google
+ docs does?
+
+    
+PRO: can roll back; sometimes in Google docs, AFTER an autosave I make a change that I don't like. Rather than CLOSE WITHOUT SAVING I have to UNDO like crazy
+CONs: probably have to manage commits smartly. Also, if someone unplugs my computer without me committing, I guess I'm screwed
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+ files in one commit, while others, like Google Docs, treat each file separately?
+
+   
+Systems like Git allow you to group files by feature because usually a program (or book, or app, or whatever) are comprised of multiple, related files
+Google docs are not always related; I might have one for an essay, and another one for this week's grocery list
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows you all of the commits that have occured, including unique IDs for each
+Diff lets you compare 2 versions of files based on the commit IDs of each
+
+
+
+How might using version control make you more confident to make changes that
+ could break something?
+
+    
+Can easily roll back to a known, clean version, if needed
+Can also be used to DIFF the bad version with a prior GOOD version to see what bug got introduced
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   
+just seeing what the big deal is, and if it might help our challenge re: sharing source across projects?
